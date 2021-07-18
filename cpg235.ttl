@@ -1,0 +1,1714 @@
+@prefix cpg235: <https://dalstonsemantics.com/reg/au/apra/cpg235/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+cpg235:0004 a skos:Concept ;
+    skos:broader cpg235:0003 ;
+    skos:definition "The degree to which data is error free and aligns with what it represents." ;
+    skos:inScheme cpg235:scheme ;
+    skos:note "CPG 235 - Managing Data Risk s 16(a)" ;
+    skos:prefLabel "Accuracy" .
+
+cpg235:0005 a skos:Concept ;
+    skos:broader cpg235:0003 ;
+    skos:definition "The extent to which data is not missing and is of sufficient breadth and depth for the intended purpose." ;
+    skos:inScheme cpg235:scheme ;
+    skos:note "CPG 235 - Managing Data Risk s 16(b)" ;
+    skos:prefLabel "Completeness" .
+
+cpg235:0006 a skos:Concept ;
+    skos:broader cpg235:0003 ;
+    skos:definition "The degree to which related data is in alignment with respect to dimensions such as definition, value, range, type and format, as applicable." ;
+    skos:inScheme cpg235:scheme ;
+    skos:note "CPG 235 - Managing Data Risk s 16(c)" ;
+    skos:prefLabel "Consistency" .
+
+cpg235:0007 a skos:Concept ;
+    skos:broader cpg235:0003 ;
+    skos:definition "Degree to which data is up to-date." ;
+    skos:inScheme cpg235:scheme ;
+    skos:note "CPG 235 - Managing Data Risk s 16(d)" ;
+    skos:prefLabel "Timeliness" .
+
+cpg235:0008 a skos:Concept ;
+    skos:broader cpg235:0003 ;
+    skos:definition "Accessibility and usability of data when required." ;
+    skos:inScheme cpg235:scheme ;
+    skos:note "CPG 235 - Managing Data Risk s 16(e)" ;
+    skos:prefLabel "Availability" .
+
+cpg235:0009 a skos:Concept ;
+    skos:broader cpg235:0003 ;
+    skos:definition "The degree to which data is relevant, appropriate for the intended purpose and meets business specifications." ;
+    skos:inScheme cpg235:scheme ;
+    skos:note "CPG 235 - Managing Data Risk s 16(f)" ;
+    skos:prefLabel "Fitness for use" .
+
+cpg235:0011 a skos:Concept ;
+    skos:broader cpg235:0010 ;
+    skos:definition "Restriction of data access to authorised users, software and hardware." ;
+    skos:inScheme cpg235:scheme ;
+    skos:note "CPG 235 - Managing Data Risk s 17(a)" ;
+    skos:prefLabel "Confidentiality" .
+
+cpg235:0012 a skos:Concept ;
+    skos:broader cpg235:0010 ;
+    skos:definition "The ability to attribute the responsibility for an action." ;
+    skos:inScheme cpg235:scheme ;
+    skos:note "CPG 235 - Managing Data Risk s 17(b)" ;
+    skos:prefLabel "Accountability" .
+
+cpg235:0013 a skos:Concept ;
+    skos:broader cpg235:0010 ;
+    skos:definition "The condition of being genuine." ;
+    skos:inScheme cpg235:scheme ;
+    skos:note "CPG 235 - Managing Data Risk s 17(c)" ;
+    skos:prefLabel "Authenticity" .
+
+cpg235:0014 a skos:Concept ;
+    skos:broader cpg235:0010 ;
+    skos:definition "The concept that an event cannot later be denied." ;
+    skos:inScheme cpg235:scheme ;
+    skos:note "CPG 235 - Managing Data Risk s 17(d)" ;
+    skos:prefLabel "Non-repudiation" .
+
+cpg235:0016 a skos:Concept ;
+    skos:broader cpg235:0015 ;
+    skos:inScheme cpg235:scheme ;
+    skos:note "CPG 235 - Managing Data Risk s 18" ;
+    skos:prefLabel "Criticality" .
+
+cpg235:0017 a skos:Concept ;
+    skos:broader cpg235:0015 ;
+    skos:inScheme cpg235:scheme ;
+    skos:note "CPG 235 - Managing Data Risk s 18" ;
+    skos:prefLabel "Sensitivity" .
+
+cpg235:0019 a skos:Concept ;
+    skos:broader cpg235:0018 ;
+    skos:inScheme cpg235:scheme ;
+    skos:note "CPG 235 - Managing Data Risk s 19" ;
+    skos:prefLabel "Regular assessment of the completeness of data risk management processes by comparison to peers and established control frameworks and standards" .
+
+cpg235:0103 a skos:Concept ;
+    skos:broader cpg235:0102 ;
+    skos:inScheme cpg235:scheme ;
+    skos:note "CPG 235 - Managing Data Risk s 20(a)" ;
+    skos:prefLabel "Hierarchy of policies, standards, guidelines, procedures" .
+
+cpg235:0104 a skos:Concept ;
+    skos:broader cpg235:0102 ;
+    skos:inScheme cpg235:scheme ;
+    skos:note "CPG 235 - Managing Data Risk s 20(b)" ;
+    skos:prefLabel "Alignment with other enterprise frameworks" .
+
+cpg235:0105 a skos:Concept ;
+    skos:broader cpg235:0102 ;
+    skos:inScheme cpg235:scheme ;
+    skos:note "CPG 235 - Managing Data Risk s 20(c)" ;
+    skos:prefLabel "Expectations of the Board and senior management" .
+
+cpg235:0106 a skos:Concept ;
+    skos:broader cpg235:0102 ;
+    skos:inScheme cpg235:scheme ;
+    skos:note "CPG 235 - Managing Data Risk s 20(d)" ;
+    skos:prefLabel "Designated owner or owners" .
+
+cpg235:0107 a skos:Concept ;
+    skos:broader cpg235:0102 ;
+    skos:inScheme cpg235:scheme ;
+    skos:note "CPG 235 - Managing Data Risk s 20(e)" ;
+    skos:prefLabel "Roles and responsibilities" .
+
+cpg235:0108 a skos:Concept ;
+    skos:broader cpg235:0102 ;
+    skos:inScheme cpg235:scheme ;
+    skos:note "CPG 235 - Managing Data Risk s 20(f)" ;
+    skos:prefLabel "Enablement of design and implementation of data controls" .
+
+cpg235:0109 a skos:Concept ;
+    skos:broader cpg235:0102 ;
+    skos:inScheme cpg235:scheme ;
+    skos:note "CPG 235 - Managing Data Risk s 20(g)" ;
+    skos:prefLabel "Reviews on regular basis" .
+
+cpg235:0111 a skos:Concept ;
+    skos:broader cpg235:0110 ;
+    skos:definition "Clearly defined budget, resource requirements, timeframes and milestones." ;
+    skos:inScheme cpg235:scheme ;
+    skos:note "CPG 235 - Managing Data Risk s 21(a)" ;
+    skos:prefLabel "Data risk management strategy and supporting program of work" .
+
+cpg235:0112 a skos:Concept ;
+    skos:broader cpg235:0110 ;
+    skos:inScheme cpg235:scheme ;
+    skos:note "CPG 235 - Managing Data Risk s 21(b)" ;
+    skos:prefLabel "Integral part of change management and business-as-usual processes" .
+
+cpg235:0115 a skos:Concept ;
+    skos:broader cpg235:0114 ;
+    skos:inScheme cpg235:scheme ;
+    skos:note "CPG 235 - Managing Data Risk s 22(a)" ;
+    skos:prefLabel "Access to data is only granted where required to conduct business processes" .
+
+cpg235:0116 a skos:Concept ;
+    skos:broader cpg235:0114 ;
+    skos:inScheme cpg235:scheme ;
+    skos:note "CPG 235 - Managing Data Risk s 22(b)" ;
+    skos:prefLabel "Data validation, correction and cleansing occur as close to the point of capture as possible" .
+
+cpg235:0117 a skos:Concept ;
+    skos:broader cpg235:0114 ;
+    skos:inScheme cpg235:scheme ;
+    skos:note "CPG 235 - Managing Data Risk s 22(c)" ;
+    skos:prefLabel "Automation is used as an alternative to manual processes" .
+
+cpg235:0118 a skos:Concept ;
+    skos:broader cpg235:0114 ;
+    skos:inScheme cpg235:scheme ;
+    skos:note "CPG 235 - Managing Data Risk s 22(d)" ;
+    skos:prefLabel "Timely detection and reporting of data issues" .
+
+cpg235:0119 a skos:Concept ;
+    skos:broader cpg235:0114 ;
+    skos:inScheme cpg235:scheme ;
+    skos:note "CPG 235 - Managing Data Risk s 22(e)" ;
+    skos:prefLabel "Assessment of data quality to ensure it is acceptable for the intended purpose" .
+
+cpg235:0120 a skos:Concept ;
+    skos:broader cpg235:0114 ;
+    skos:inScheme cpg235:scheme ;
+    skos:note "CPG 235 - Managing Data Risk s 22(f)" ;
+    skos:prefLabel "Design of the control environment is based on the assumption that staff do not know what the data risk management policies and procedures are" .
+
+cpg235:0123 a skos:Concept ;
+    skos:broader cpg235:0122 ;
+    skos:inScheme cpg235:scheme ;
+    skos:note "CPG 235 - Managing Data Risk s 23(a)" ;
+    skos:prefLabel "Data roles and responsibilities for general staff and data users" .
+
+cpg235:0124 a skos:Concept ;
+    skos:broader cpg235:0122 ;
+    skos:inScheme cpg235:scheme ;
+    skos:note "CPG 235 - Managing Data Risk s 23(b)" ;
+    skos:prefLabel "Data-specific roles and responsibilities" .
+
+cpg235:0125 a skos:Concept ;
+    skos:broader cpg235:0122 ;
+    skos:inScheme cpg235:scheme ;
+    skos:note "CPG 235 - Managing Data Risk s 23(c)" ;
+    skos:prefLabel "Governance functions and reporting mechanisms" .
+
+cpg235:0126 a skos:Concept ;
+    skos:broader cpg235:0122 ;
+    skos:inScheme cpg235:scheme ;
+    skos:note "CPG 235 - Managing Data Risk s 23(d)" ;
+    skos:prefLabel "Risk management, assurance and compliance roles" .
+
+cpg235:0127 a skos:Concept ;
+    skos:broader cpg235:0122 ;
+    skos:inScheme cpg235:scheme ;
+    skos:note "CPG 235 - Managing Data Risk s 23(e)" ;
+    skos:prefLabel "Data risk management framework roles" .
+
+cpg235:0128 a skos:Concept ;
+    skos:broader cpg235:0122 ;
+    skos:inScheme cpg235:scheme ;
+    skos:note "CPG 235 - Managing Data Risk s 23(f)" ;
+    skos:prefLabel "Responsibilities for data monitoring and management" .
+
+cpg235:0130 a skos:Concept ;
+    skos:broader cpg235:0129 ;
+    skos:definition "APRA expects that a regulated entity would implement processes that ensure compliance with regulatory and legal requirements and data risk management requirements. This would typically include ongoing checks by the compliance function (or equivalent), supported by reporting mechanisms (e.g. metrics, exceptions) and management reviews." ;
+    skos:inScheme cpg235:scheme ;
+    skos:note "CPG 235 - Managing Data Risk s 24" ;
+    skos:prefLabel "Processes that ensure compliance" .
+
+cpg235:0131 a skos:Concept ;
+    skos:broader cpg235:0129 ;
+    skos:definition "A regulated entity would be expected to implement an exemption policy for handling instances of non-compliance with the data risk management framework (if relevant), including management of the exemption register, authority for granting exemptions, expiry of exemptions and the review of exemptions granted. Where exemptions are granted, APRA envisages that an entity would review and assess the adequacy of compensating controls initially and on an ongoing basis. Compensating controls would normally reduce the residual risk in line with the entity's risk appetite." ;
+    skos:inScheme cpg235:scheme ;
+    skos:note "CPG 235 - Managing Data Risk s 25" ;
+    skos:prefLabel "Exemption policy for handling instances of non-compliance" .
+
+cpg235:0133 a skos:Concept ;
+    skos:broader cpg235:0132 ;
+    skos:definition "APRA envisages that a regulated entity would regularly assess data quality and evaluate the effectiveness of data risk management, and make any necessary adjustments to ensure identified control gaps are treated in a timely and systematic manner. This could involve establishing a data improvement program that specifies target metrics, timeframes for resolution and associated action plans for closing any gaps identified. Typically, action plans would be prioritised and tracked." ;
+    skos:inScheme cpg235:scheme ;
+    skos:note "CPG 235 - Managing Data Risk s 26" ;
+    skos:prefLabel "Assessment of data quality" .
+
+cpg235:0134 a skos:Concept ;
+    skos:broader cpg235:0132 ;
+    skos:inScheme cpg235:scheme ;
+    skos:note "CPG 235 - Managing Data Risk s 26" ;
+    skos:prefLabel "Evaluation of effectiveness of data risk management" .
+
+cpg235:0135 a skos:Concept ;
+    skos:broader cpg235:0132 ;
+    skos:inScheme cpg235:scheme ;
+    skos:note "CPG 235 - Managing Data Risk s 26" ;
+    skos:prefLabel "Adjustments to ensure identified control gaps are treated in a timely and systematic manner" .
+
+cpg235:0138 a skos:Concept ;
+    skos:broader cpg235:0137 ;
+    skos:inScheme cpg235:scheme ;
+    skos:note "CPG 235 - Managing Data Risk s 27(a)" ;
+    skos:prefLabel "Understanding of the nature and characteristics of the data" .
+
+cpg235:0139 a skos:Concept ;
+    skos:broader cpg235:0137 ;
+    skos:inScheme cpg235:scheme ;
+    skos:note "CPG 235 - Managing Data Risk s 27(b)" ;
+    skos:prefLabel "Ability to assess the quality of the data" .
+
+cpg235:0140 a skos:Concept ;
+    skos:altLabel "Data lineage" ;
+    skos:broader cpg235:0137 ;
+    skos:inScheme cpg235:scheme ;
+    skos:note "CPG 235 - Managing Data Risk s 27(c)" ;
+    skos:prefLabel "Understanding of the flow of data and processing undertaken" .
+
+cpg235:0141 a skos:Concept ;
+    skos:broader cpg235:0137 ;
+    skos:inScheme cpg235:scheme ;
+    skos:note "CPG 235 - Managing Data Risk s 27(d)" ;
+    skos:prefLabel "Understanding of the data risks and associated controls" .
+
+cpg235:0143 a skos:Concept ;
+    skos:broader cpg235:0142 ;
+    skos:inScheme cpg235:scheme ;
+    skos:note "CPG 235 - Managing Data Risk s 28(a)" ;
+    skos:prefLabel "Data strategy" .
+
+cpg235:0145 a skos:Concept ;
+    skos:broader cpg235:0144 ;
+    skos:inScheme cpg235:scheme ;
+    skos:note "CPG 235 - Managing Data Risk s 28(b)" ;
+    skos:prefLabel "Definitions" .
+
+cpg235:0146 a skos:Concept ;
+    skos:broader cpg235:0144 ;
+    skos:inScheme cpg235:scheme ;
+    skos:note "CPG 235 - Managing Data Risk s 28(b)" ;
+    skos:prefLabel "Descriptions" .
+
+cpg235:0147 a skos:Concept ;
+    skos:broader cpg235:0144 ;
+    skos:inScheme cpg235:scheme ;
+    skos:note "CPG 235 - Managing Data Risk s 28(b)" ;
+    skos:prefLabel "Sources" .
+
+cpg235:0148 a skos:Concept ;
+    skos:broader cpg235:0144 ;
+    skos:inScheme cpg235:scheme ;
+    skos:note "CPG 235 - Managing Data Risk s 28(b)" ;
+    skos:prefLabel "Usages" .
+
+cpg235:0149 a skos:Concept ;
+    skos:broader cpg235:0144 ;
+    skos:inScheme cpg235:scheme ;
+    skos:note "CPG 235 - Managing Data Risk s 28(b)" ;
+    skos:prefLabel "Update mechanisms" .
+
+cpg235:0150 a skos:Concept ;
+    skos:broader cpg235:0144 ;
+    skos:inScheme cpg235:scheme ;
+    skos:note "CPG 235 - Managing Data Risk s 28(b)" ;
+    skos:prefLabel "Owners" .
+
+cpg235:0151 a skos:Concept ;
+    skos:broader cpg235:0144 ;
+    skos:inScheme cpg235:scheme ;
+    skos:note "CPG 235 - Managing Data Risk s 28(b)" ;
+    skos:prefLabel "Authorised users" .
+
+cpg235:0152 a skos:Concept ;
+    skos:broader cpg235:0144 ;
+    skos:inScheme cpg235:scheme ;
+    skos:note "CPG 235 - Managing Data Risk s 28(b)" ;
+    skos:prefLabel "Criticality" .
+
+cpg235:0153 a skos:Concept ;
+    skos:broader cpg235:0144 ;
+    skos:inScheme cpg235:scheme ;
+    skos:note "CPG 235 - Managing Data Risk s 28(b)" ;
+    skos:prefLabel "Sensitivity" .
+
+cpg235:0154 a skos:Concept ;
+    skos:broader cpg235:0144 ;
+    skos:inScheme cpg235:scheme ;
+    skos:note "CPG 235 - Managing Data Risk s 28(b)" ;
+    skos:prefLabel "Quality requirements" .
+
+cpg235:0156 a skos:Concept ;
+    skos:broader cpg235:0155 ;
+    skos:definition "Data structure is often embodied in data models." ;
+    skos:inScheme cpg235:scheme ;
+    skos:note "CPG 235 - Managing Data Risk s 28(c)" ;
+    skos:prefLabel "Underlying data structure" .
+
+cpg235:0157 a skos:Concept ;
+    skos:broader cpg235:0155 ;
+    skos:inScheme cpg235:scheme ;
+    skos:note "CPG 235 - Managing Data Risk s 28(c)" ;
+    skos:prefLabel "Flow of data" .
+
+cpg235:0158 a skos:Concept ;
+    skos:broader cpg235:0155 ;
+    skos:inScheme cpg235:scheme ;
+    skos:note "CPG 235 - Managing Data Risk s 28(c)" ;
+    skos:prefLabel "Systems" .
+
+cpg235:0159 a skos:Concept ;
+    skos:broader cpg235:0155 ;
+    skos:inScheme cpg235:scheme ;
+    skos:note "CPG 235 - Managing Data Risk s 28(c)" ;
+    skos:prefLabel "Data repositories" .
+
+cpg235:0160 a skos:Concept ;
+    skos:broader cpg235:0155 ;
+    skos:inScheme cpg235:scheme ;
+    skos:note "CPG 235 - Managing Data Risk s 28(c)" ;
+    skos:prefLabel "Interfaces" .
+
+cpg235:0161 a skos:Concept ;
+    skos:broader cpg235:0142 ;
+    skos:definition "Refers to the end-to-end life-cycle of data from the initial point of capture through to disposal. This differs from the system development life-cycle." ;
+    skos:inScheme cpg235:scheme ;
+    skos:note "CPG 235 - Managing Data Risk s 28(d)" ;
+    skos:prefLabel "Controls across various stages of data life-cycle" .
+
+cpg235:0164 a skos:Concept ;
+    skos:broader cpg235:0163 ;
+    skos:inScheme cpg235:scheme ;
+    skos:note "CPG 235 - Managing Data Risk s 28(e)" ;
+    skos:prefLabel "Applications" .
+
+cpg235:0165 a skos:Concept ;
+    skos:broader cpg235:0163 ;
+    skos:inScheme cpg235:scheme ;
+    skos:note "CPG 235 - Managing Data Risk s 28(e)" ;
+    skos:prefLabel "Data base management systems" .
+
+cpg235:0166 a skos:Concept ;
+    skos:broader cpg235:0163 ;
+    skos:inScheme cpg235:scheme ;
+    skos:note "CPG 235 - Managing Data Risk s 28(e)" ;
+    skos:prefLabel "Data integration tools" .
+
+cpg235:0167 a skos:Concept ;
+    skos:broader cpg235:0136 ;
+    skos:definition "APRA envisages that the data architecture would normally align with a regulated entity's established policies, standards and guidelines. An entity would normally maintain the data architecture as part of its change management, project management and system life-cycle processes. This includes controls to ensure alignment to the standards and guidelines embodied in the data architecture." ;
+    skos:inScheme cpg235:scheme ;
+    skos:note "CPG 235 - Managing Data Risk s 29" ;
+    skos:prefLabel "Alignment with established policies, standards and guidelines" .
+
+cpg235:0202 a skos:Concept ;
+    skos:broader cpg235:0201 ;
+    skos:definition "A regulated entity would be likely to benefit from developing an initial and ongoing training and awareness program. For staff who do not have specific data risk management responsibilities, this would typically be incorporated as part of ongoing business process-specific or broader risk management training, as applicable." ;
+    skos:inScheme cpg235:scheme ;
+    skos:note "CPG 235 - Managing Data Risk s 30" ;
+    skos:prefLabel "Initial and ongoing training and awareness program" .
+
+cpg235:0203 a skos:Concept ;
+    skos:broader cpg235:0201 ;
+    skos:definition "A regulated entity could also consider incorporating data risk management responsibilities as a component of staff performance plans, as appropriate." ;
+    skos:inScheme cpg235:scheme ;
+    skos:note "CPG 235 - Managing Data Risk s 31" ;
+    skos:prefLabel "Staff performance plans" .
+
+cpg235:0206 a skos:Concept ;
+    skos:broader cpg235:0205 ;
+    skos:inScheme cpg235:scheme ;
+    skos:note "CPG 235 - Managing Data Risk s 32(a)" ;
+    skos:prefLabel "Ensuring the quality of data entered" .
+
+cpg235:0207 a skos:Concept ;
+    skos:broader cpg235:0205 ;
+    skos:inScheme cpg235:scheme ;
+    skos:note "CPG 235 - Managing Data Risk s 32(b)" ;
+    skos:prefLabel "Verifying the level of data quality prior to its use" .
+
+cpg235:0208 a skos:Concept ;
+    skos:broader cpg235:0205 ;
+    skos:inScheme cpg235:scheme ;
+    skos:note "CPG 235 - Managing Data Risk s 32(c)" ;
+    skos:prefLabel "Mechanisms for reporting data quality issues and concerns" .
+
+cpg235:0209 a skos:Concept ;
+    skos:broader cpg235:0205 ;
+    skos:inScheme cpg235:scheme ;
+    skos:note "CPG 235 - Managing Data Risk s 32(d)" ;
+    skos:prefLabel "Adherence to data-related policies and standards" .
+
+cpg235:0303 a skos:Concept ;
+    skos:broader cpg235:0302 ;
+    skos:inScheme cpg235:scheme ;
+    skos:note "CPG 235 - Managing Data Risk s 33" ;
+    skos:prefLabel "Capture" .
+
+cpg235:0304 a skos:Concept ;
+    skos:broader cpg235:0302 ;
+    skos:inScheme cpg235:scheme ;
+    skos:note "CPG 235 - Managing Data Risk s 33" ;
+    skos:prefLabel "Processing" .
+
+cpg235:0305 a skos:Concept ;
+    skos:broader cpg235:0302 ;
+    skos:inScheme cpg235:scheme ;
+    skos:note "CPG 235 - Managing Data Risk s 33" ;
+    skos:prefLabel "Retention" .
+
+cpg235:0306 a skos:Concept ;
+    skos:broader cpg235:0302 ;
+    skos:inScheme cpg235:scheme ;
+    skos:note "CPG 235 - Managing Data Risk s 33" ;
+    skos:prefLabel "Publication" .
+
+cpg235:0307 a skos:Concept ;
+    skos:broader cpg235:0302 ;
+    skos:inScheme cpg235:scheme ;
+    skos:note "CPG 235 - Managing Data Risk s 33" ;
+    skos:prefLabel "Disposal" .
+
+cpg235:0310 a skos:Concept ;
+    skos:broader cpg235:0309 ;
+    skos:inScheme cpg235:scheme ;
+    skos:note "CPG 235 - Managing Data Risk s 34(a)" ;
+    skos:prefLabel "User interfaces conduct appropriate validation" .
+
+cpg235:0311 a skos:Concept ;
+    skos:broader cpg235:0309 ;
+    skos:inScheme cpg235:scheme ;
+    skos:note "CPG 235 - Managing Data Risk s 34(b)" ;
+    skos:prefLabel "Mechanisms to detect if automated data feeds are functioning as expected" .
+
+cpg235:0312 a skos:Concept ;
+    skos:broader cpg235:0309 ;
+    skos:inScheme cpg235:scheme ;
+    skos:note "CPG 235 - Managing Data Risk s 34(c)" ;
+    skos:prefLabel "Specification of data quality requirements and the mechanisms for handling data quality issues included in agreements with internal and external parties" .
+
+cpg235:0315 a skos:Concept ;
+    skos:broader cpg235:0314 ;
+    skos:inScheme cpg235:scheme ;
+    skos:note "CPG 235 - Managing Data Risk s 35(a)" ;
+    skos:prefLabel "Data integration controls" .
+
+cpg235:0316 a skos:Concept ;
+    skos:broader cpg235:0314 ;
+    skos:inScheme cpg235:scheme ;
+    skos:note "CPG 235 - Managing Data Risk s 35(b)" ;
+    skos:prefLabel "Acquisition and implementation via approved development, change and project management methodologies" .
+
+cpg235:0317 a skos:Concept ;
+    skos:broader cpg235:0314 ;
+    skos:inScheme cpg235:scheme ;
+    skos:note "CPG 235 - Managing Data Risk s 35(c)" ;
+    skos:prefLabel "Exception handling to identify and respond to data quality issues in a timely manner" .
+
+cpg235:0318 a skos:Concept ;
+    skos:broader cpg235:0314 ;
+    skos:definition "This is commonly achieved through a variety of mechanisms including database management system checkpoint and rollback capabilities, data backup and recovery, and the design of automated processes so they can be re-run if required." ;
+    skos:inScheme cpg235:scheme ;
+    skos:note "CPG 235 - Managing Data Risk s 35(d)" ;
+    skos:prefLabel "Error-handling to ensure data is able be restored or corrected to a known level of data quality" .
+
+cpg235:0322 a skos:Concept ;
+    skos:broader cpg235:0321 ;
+    skos:inScheme cpg235:scheme ;
+    skos:note "CPG 235 - Managing Data Risk s 36" ;
+    skos:prefLabel "Outsourced data hosting controls" .
+
+cpg235:0323 a skos:Concept ;
+    skos:broader cpg235:0321 ;
+    skos:inScheme cpg235:scheme ;
+    skos:note "CPG 235 - Managing Data Risk s 36" ;
+    skos:prefLabel "Offshore data hosting controls" .
+
+cpg235:0326 a skos:Concept ;
+    skos:broader cpg235:0325 ;
+    skos:inScheme cpg235:scheme ;
+    skos:note "CPG 235 - Managing Data Risk s 37" ;
+    skos:prefLabel "Accidental deletion" .
+
+cpg235:0327 a skos:Concept ;
+    skos:broader cpg235:0325 ;
+    skos:inScheme cpg235:scheme ;
+    skos:note "CPG 235 - Managing Data Risk s 37" ;
+    skos:prefLabel "Data corruption" .
+
+cpg235:0328 a skos:Concept ;
+    skos:broader cpg235:0325 ;
+    skos:inScheme cpg235:scheme ;
+    skos:note "CPG 235 - Managing Data Risk s 37" ;
+    skos:prefLabel "Changes in technology" .
+
+cpg235:0329 a skos:Concept ;
+    skos:broader cpg235:0325 ;
+    skos:inScheme cpg235:scheme ;
+    skos:note "CPG 235 - Managing Data Risk s 37" ;
+    skos:prefLabel "Poor asset management" .
+
+cpg235:0330 a skos:Concept ;
+    skos:broader cpg235:0324 ;
+    skos:inScheme cpg235:scheme ;
+    skos:note "CPG 235 - Managing Data Risk s 37" ;
+    skos:prefLabel "Mechanisms to endure that data retention complies with business requirements, including regulatory and legal requirements" .
+
+cpg235:0332 a skos:Concept ;
+    skos:broader cpg235:0331 ;
+    skos:inScheme cpg235:scheme ;
+    skos:note "CPG 235 - Managing Data Risk s 38" ;
+    skos:prefLabel "Approval and review of data changes" .
+
+cpg235:0333 a skos:Concept ;
+    skos:broader cpg235:0331 ;
+    skos:inScheme cpg235:scheme ;
+    skos:note "CPG 235 - Managing Data Risk s 38" ;
+    skos:prefLabel "Maintenance of audit trails for tracking data changes" .
+
+cpg235:0343 a skos:Concept ;
+    skos:broader cpg235:0342 ;
+    skos:inScheme cpg235:scheme ;
+    skos:note "CPG 235 - Managing Data Risk s 39(a)" ;
+    skos:prefLabel "Management review and approval" .
+
+cpg235:0344 a skos:Concept ;
+    skos:broader cpg235:0342 ;
+    skos:inScheme cpg235:scheme ;
+    skos:note "CPG 235 - Managing Data Risk s 39(a)" ;
+    skos:prefLabel "Change management" .
+
+cpg235:0345 a skos:Concept ;
+    skos:broader cpg235:0342 ;
+    skos:inScheme cpg235:scheme ;
+    skos:note "CPG 235 - Managing Data Risk s 39(a)" ;
+    skos:prefLabel "Project management" .
+
+cpg235:0346 a skos:Concept ;
+    skos:broader cpg235:0342 ;
+    skos:inScheme cpg235:scheme ;
+    skos:note "CPG 235 - Managing Data Risk s 39(a)" ;
+    skos:prefLabel "System development lifecycle" .
+
+cpg235:0347 a skos:Concept ;
+    skos:broader cpg235:0341 ;
+    skos:inScheme cpg235:scheme ;
+    skos:note "CPG 235 - Managing Data Risk s 39(b)" ;
+    skos:prefLabel "Validation and monitoring" .
+
+cpg235:0348 a skos:Concept ;
+    skos:broader cpg235:0341 ;
+    skos:inScheme cpg235:scheme ;
+    skos:note "CPG 235 - Managing Data Risk s 39(c)" ;
+    skos:prefLabel "Process to manage data issues raised by users" .
+
+cpg235:0349 a skos:Concept ;
+    skos:broader cpg235:0340 ;
+    skos:inScheme cpg235:scheme ;
+    skos:note "CPG 235 - Managing Data Risk s 40" ;
+    skos:prefLabel "Data quality requirements clearly specified" .
+
+cpg235:0350 a skos:Concept ;
+    skos:broader cpg235:0340 ;
+    skos:inScheme cpg235:scheme ;
+    skos:note "CPG 235 - Managing Data Risk s 40" ;
+    skos:prefLabel "Confidentiality is not compromised through the publication of data" .
+
+cpg235:0351 a skos:Concept ;
+    skos:broader cpg235:0340 ;
+    skos:definition "Additionally, depending on the nature of usage, there could be benefit in a regulated entity including metrics with the data to provide users with an indication of the level of data quality (e.g. the level of completeness and accuracy)." ;
+    skos:inScheme cpg235:scheme ;
+    skos:note "CPG 235 - Managing Data Risk s 41" ;
+    skos:prefLabel "Inclusion of metrics with the data" .
+
+cpg235:0361 a skos:Concept ;
+    skos:broader cpg235:0360 ;
+    skos:inScheme cpg235:scheme ;
+    skos:note "CPG 235 - Managing Data Risk s 42(a)" ;
+    skos:prefLabel "Controls to ensure data is disposed of in compliance with the retention strategy" .
+
+cpg235:0362 a skos:Concept ;
+    skos:broader cpg235:0360 ;
+    skos:inScheme cpg235:scheme ;
+    skos:note "CPG 235 - Managing Data Risk s 42(b)" ;
+    skos:prefLabel "Controls to ensure business requirements with respect to confidentiality are not compromised as hardware, software or data reach the end of their useful life or the hardware/software is recommissioned for another use" .
+
+cpg235:0364 a skos:Concept ;
+    skos:broader cpg235:0363 ;
+    skos:inScheme cpg235:scheme ;
+    skos:note "CPG 235 - Managing Data Risk s 42" ;
+    skos:prefLabel "Deletion of sensitive information prior to the disposal or recommissioning of hardware" .
+
+cpg235:0365 a skos:Concept ;
+    skos:broader cpg235:0363 ;
+    skos:inScheme cpg235:scheme ;
+    skos:note "CPG 235 - Managing Data Risk s 42" ;
+    skos:prefLabel "Archiving data prior to decommissioning systems" .
+
+cpg235:0366 a skos:Concept ;
+    skos:broader cpg235:0363 ;
+    skos:inScheme cpg235:scheme ;
+    skos:note "CPG 235 - Managing Data Risk s 42" ;
+    skos:prefLabel "Removal of data following disaster recovery testing" .
+
+cpg235:0402 a skos:Concept ;
+    skos:broader cpg235:0401 ;
+    skos:definition "Evidence (e.g. log files, paperwork) of the sequence of activities that have affected data through a specific operation, procedure, or event." ;
+    skos:inScheme cpg235:scheme ;
+    skos:note "CPG 235 - Managing Data Risk s 43" ;
+    skos:prefLabel "Examination of data and associated audit trails" .
+
+cpg235:0403 a skos:Concept ;
+    skos:broader cpg235:0401 ;
+    skos:inScheme cpg235:scheme ;
+    skos:note "CPG 235 - Managing Data Risk s 43" ;
+    skos:prefLabel "Data architecture" .
+
+cpg235:0404 a skos:Concept ;
+    skos:broader cpg235:0401 ;
+    skos:inScheme cpg235:scheme ;
+    skos:note "CPG 235 - Managing Data Risk s 43" ;
+    skos:prefLabel "Other supporting material" .
+
+cpg235:0406 a skos:Concept ;
+    skos:broader cpg235:0405 ;
+    skos:definition "Methods used to transform data/information using an algorithm to make it unreadable to anyone except those possessing special knowledge, usually referred to as a key." ;
+    skos:inScheme cpg235:scheme ;
+    skos:note "CPG 235 - Managing Data Risk s 44" ;
+    skos:prefLabel "Use of cryptographic techniques when transferring data to a less trusted environment" .
+
+cpg235:0407 a skos:Concept ;
+    skos:broader cpg235:0405 ;
+    skos:definition "The removal of identifying information (e.g. name, date of birth)." ;
+    skos:inScheme cpg235:scheme ;
+    skos:note "CPG 235 - Managing Data Risk s 44" ;
+    skos:prefLabel "Use of de-identification techniques when transferring data to a less trusted environment" .
+
+cpg235:0409 a skos:Concept ;
+    skos:broader cpg235:0408 ;
+    skos:definition "In APRA's view, any software that is used for the processing and retention of critical or sensitive data would comply with the relevant life-cycle controls of the entity." ;
+    skos:inScheme cpg235:scheme ;
+    skos:note "CPG 235 - Managing Data Risk s 46" ;
+    skos:prefLabel "Processes to identify the existence of end-user developed/configured software and assess its risk exposure" .
+
+cpg235:0411 a skos:Concept ;
+    skos:broader cpg235:0410 ;
+    skos:definition "APRA expects a regulated entity to apply a cautious and measured approach when considering retaining data outside the jurisdiction it pertains to. It is important that a regulated entity is fully aware of the risks involved and makes a conscious and informed decision as to whether the additional risks are within its risk appetite." ;
+    skos:inScheme cpg235:scheme ;
+    skos:note "CPG 235 - Managing Data Risk s 48" ;
+    skos:prefLabel "Awareness of risks involved in outsourcing/offshoring of data management responsibilities" .
+
+cpg235:0412 a skos:Concept ;
+    skos:broader cpg235:0410 ;
+    skos:definition "APRA expects a regulated entity to apply a cautious and measured approach when considering retaining data outside the jurisdiction it pertains to. It is important that a regulated entity is fully aware of the risks involved and makes a conscious and informed decision as to whether the additional risks are within its risk appetite." ;
+    skos:inScheme cpg235:scheme ;
+    skos:note "CPG 235 - Managing Data Risk s 48" ;
+    skos:prefLabel "Decision as to whether additional risks of outsourcing/offshoring of data management responsibilities are within risk appetite" .
+
+cpg235:0414 a skos:Concept ;
+    skos:broader cpg235:0413 ;
+    skos:inScheme cpg235:scheme ;
+    skos:note "CPG 235 - Managing Data Risk s 49(a)" ;
+    skos:prefLabel "Ability to continue operations and meet core obligations following a loss of services" .
+
+cpg235:0415 a skos:Concept ;
+    skos:broader cpg235:0413 ;
+    skos:inScheme cpg235:scheme ;
+    skos:note "CPG 235 - Managing Data Risk s 49(b)" ;
+    skos:prefLabel "Maintenance of the quality of critical or sensitive data" .
+
+cpg235:0416 a skos:Concept ;
+    skos:broader cpg235:0413 ;
+    skos:inScheme cpg235:scheme ;
+    skos:note "CPG 235 - Managing Data Risk s 49(c)" ;
+    skos:prefLabel "Compliance with legislative and prudential requirements" .
+
+cpg235:0417 a skos:Concept ;
+    skos:broader cpg235:0413 ;
+    skos:inScheme cpg235:scheme ;
+    skos:note "CPG 235 - Managing Data Risk s 49(d)" ;
+    skos:prefLabel "Lack of impediments to APRA being able to fulfil its duties as prudential regulator" .
+
+cpg235:0419 a skos:Concept ;
+    skos:broader cpg235:0418 ;
+    skos:inScheme cpg235:scheme ;
+    skos:note "CPG 235 - Managing Data Risk s 50(a)" ;
+    skos:prefLabel "Application of enterprise frameworks" .
+
+cpg235:0420 a skos:Concept ;
+    skos:broader cpg235:0418 ;
+    skos:definition "Normally includes assessments of the service provider, the location from which the services are to be provided and the criticality and sensitivity of the data involved." ;
+    skos:inScheme cpg235:scheme ;
+    skos:note "CPG 235 - Managing Data Risk s 50(b)" ;
+    skos:prefLabel "Detailed risk assessments of the specific arrangements underlying the outsourced/offshored data services offered" .
+
+cpg235:0421 a skos:Concept ;
+    skos:broader cpg235:0418 ;
+    skos:inScheme cpg235:scheme ;
+    skos:note "CPG 235 - Managing Data Risk s 50(c)" ;
+    skos:prefLabel "Detailed understanding of the extent and nature of the business processes and the sensitivity/criticality of the data impacted by outsourced/offshored data services arrangement" .
+
+cpg235:0422 a skos:Concept ;
+    skos:broader cpg235:0418 ;
+    skos:inScheme cpg235:scheme ;
+    skos:note "CPG 235 - Managing Data Risk s 50(d)" ;
+    skos:prefLabel "Alignment with the data architecture supporting the broader information technology and business strategies" .
+
+cpg235:0423 a skos:Concept ;
+    skos:broader cpg235:0418 ;
+    skos:inScheme cpg235:scheme ;
+    skos:note "CPG 235 - Managing Data Risk s 50(e)" ;
+    skos:prefLabel "Business case justifying the additional risk exposures" .
+
+cpg235:0424 a skos:Concept ;
+    skos:broader cpg235:0418 ;
+    skos:inScheme cpg235:scheme ;
+    skos:note "CPG 235 - Managing Data Risk s 50(f)" ;
+    skos:prefLabel "Board/senior management's understanding, acceptance and approval of the resulting risk profile" .
+
+cpg235:0425 a skos:Concept ;
+    skos:broader cpg235:0418 ;
+    skos:inScheme cpg235:scheme ;
+    skos:note "CPG 235 - Managing Data Risk s 50(g)" ;
+    skos:prefLabel "Periodic reassessment of risks in line with the entity's risk management framework" .
+
+cpg235:0511 a skos:Concept ;
+    skos:broader cpg235:0510 ;
+    skos:definition "Data validation is the assessment of the data against business rules to determine its fitness for use prior to further processing. It constitutes a key set of controls for ensuring that data meets quality requirements." ;
+    skos:inScheme cpg235:scheme ;
+    skos:note "CPG 235 - Managing Data Risk s 51" ;
+    skos:prefLabel "Set of controls for ensuring that data meets quality requirements" .
+
+cpg235:0512 a skos:Concept ;
+    skos:broader cpg235:0510 ;
+    skos:definition "Strength of the validation controls would be commensurate with the nature of the data and its classification." ;
+    skos:inScheme cpg235:scheme ;
+    skos:note "CPG 235 - Managing Data Risk s 52" ;
+    skos:prefLabel "Implement data validation controls at the point of capture and at various points throughout the data's life-cycle." .
+
+cpg235:0514 a skos:Concept ;
+    skos:broader cpg235:0513 ;
+    skos:definition "Is the data from a provider with a known control environment and track record." ;
+    skos:inScheme cpg235:scheme ;
+    skos:note "CPG 235 - Managing Data Risk s 53" ;
+    skos:prefLabel "Level of trustworthiness" .
+
+cpg235:0515 a skos:Concept ;
+    skos:broader cpg235:0513 ;
+    skos:inScheme cpg235:scheme ;
+    skos:note "CPG 235 - Managing Data Risk s 53" ;
+    skos:prefLabel "Extent to which data quality degrades over time" .
+
+cpg235:0517 a skos:Concept ;
+    skos:broader cpg235:0516 ;
+    skos:inScheme cpg235:scheme ;
+    skos:note "CPG 235 - Managing Data Risk s 54" ;
+    skos:prefLabel "Verification of format" .
+
+cpg235:0518 a skos:Concept ;
+    skos:broader cpg235:0516 ;
+    skos:inScheme cpg235:scheme ;
+    skos:note "CPG 235 - Managing Data Risk s 54" ;
+    skos:prefLabel "Verification of type" .
+
+cpg235:0519 a skos:Concept ;
+    skos:broader cpg235:0516 ;
+    skos:inScheme cpg235:scheme ;
+    skos:note "CPG 235 - Managing Data Risk s 54" ;
+    skos:prefLabel "Verification of value range" .
+
+cpg235:0520 a skos:Concept ;
+    skos:broader cpg235:0516 ;
+    skos:inScheme cpg235:scheme ;
+    skos:note "CPG 235 - Managing Data Risk s 54" ;
+    skos:prefLabel "Verification of currency" .
+
+cpg235:0521 a skos:Concept ;
+    skos:broader cpg235:0516 ;
+    skos:inScheme cpg235:scheme ;
+    skos:note "CPG 235 - Managing Data Risk s 54" ;
+    skos:prefLabel "Verification of presence" .
+
+cpg235:0522 a skos:Concept ;
+    skos:broader cpg235:0516 ;
+    skos:inScheme cpg235:scheme ;
+    skos:note "CPG 235 - Managing Data Risk s 54" ;
+    skos:prefLabel "Verification of consistency" .
+
+cpg235:0523 a skos:Concept ;
+    skos:broader cpg235:0516 ;
+    skos:inScheme cpg235:scheme ;
+    skos:note "CPG 235 - Managing Data Risk s 54" ;
+    skos:prefLabel "Verification of completeness" .
+
+cpg235:0525 a skos:Concept ;
+    skos:broader cpg235:0524 ;
+    skos:definition "Aggregation techniques including hash totalling, amount totalling and record counts." ;
+    skos:inScheme cpg235:scheme ;
+    skos:note "CPG 235 - Managing Data Risk s 54(a)" ;
+    skos:prefLabel "Control totalling" .
+
+cpg235:0526 a skos:Concept ;
+    skos:broader cpg235:0524 ;
+    skos:definition "Comparing two sets of data and explaining variances." ;
+    skos:inScheme cpg235:scheme ;
+    skos:note "CPG 235 - Managing Data Risk s 54(b)" ;
+    skos:prefLabel "Reconciliation" .
+
+cpg235:0527 a skos:Concept ;
+    skos:broader cpg235:0524 ;
+    skos:definition "Comparing two sets of data that would normally exhibit similar characteristics, in order to highlight material variations." ;
+    skos:inScheme cpg235:scheme ;
+    skos:note "CPG 235 - Managing Data Risk s 54(c)" ;
+    skos:prefLabel "Benchmarking" .
+
+cpg235:0528 a skos:Concept ;
+    skos:broader cpg235:0524 ;
+    skos:definition "Examination of a data set and the gathering of statistics and other relevant information for the purposes of analysis to highlight any data anomalies (e.g. missing data, outliers, unexpected variances)." ;
+    skos:inScheme cpg235:scheme ;
+    skos:note "CPG 235 - Managing Data Risk s 54(d)" ;
+    skos:prefLabel "Data profiling" .
+
+cpg235:0529 a skos:Concept ;
+    skos:broader cpg235:0524 ;
+    skos:definition "A review of data for reasonableness using expert judgement. In APRA's view, where other validation controls cannot be easily implemented, a review of data for reasonableness using expert judgement would be beneficial as a minimum." ;
+    skos:inScheme cpg235:scheme ;
+    skos:note "CPG 235 - Managing Data Risk s 54(e), CPG 235 - Managing Data Risk s 55" ;
+    skos:prefLabel "Review of data for reasonableness using expert judgement" .
+
+cpg235:0531 a skos:Concept ;
+    skos:broader cpg235:0530 ;
+    skos:inScheme cpg235:scheme ;
+    skos:note "CPG 235 - Managing Data Risk s 56" ;
+    skos:prefLabel "Nature of data validation" .
+
+cpg235:0532 a skos:Concept ;
+    skos:broader cpg235:0530 ;
+    skos:inScheme cpg235:scheme ;
+    skos:note "CPG 235 - Managing Data Risk s 56" ;
+    skos:prefLabel "Frequency of data validation" .
+
+cpg235:0533 a skos:Concept ;
+    skos:broader cpg235:0530 ;
+    skos:inScheme cpg235:scheme ;
+    skos:note "CPG 235 - Managing Data Risk s 56" ;
+    skos:prefLabel "Level of granularity of data validation" .
+
+cpg235:0535 a skos:Concept ;
+    skos:broader cpg235:0534 ;
+    skos:inScheme cpg235:scheme ;
+    skos:note "CPG 235 - Managing Data Risk s 56" ;
+    skos:prefLabel "Detection of data anomalies" .
+
+cpg235:0536 a skos:Concept ;
+    skos:broader cpg235:0534 ;
+    skos:inScheme cpg235:scheme ;
+    skos:note "CPG 235 - Managing Data Risk s 56" ;
+    skos:prefLabel "Investigation of data anomalies" .
+
+cpg235:0537 a skos:Concept ;
+    skos:broader cpg235:0534 ;
+    skos:inScheme cpg235:scheme ;
+    skos:note "CPG 235 - Managing Data Risk s 56" ;
+    skos:prefLabel "Reporting of data anomalies" .
+
+cpg235:0538 a skos:Concept ;
+    skos:broader cpg235:0534 ;
+    skos:inScheme cpg235:scheme ;
+    skos:note "CPG 235 - Managing Data Risk s 56" ;
+    skos:prefLabel "Escalation of data anomalies" .
+
+cpg235:0541 a skos:Concept ;
+    skos:broader cpg235:0540 ;
+    skos:definition "As part of key business events such as member rollovers, claims, policy renewal." ;
+    skos:inScheme cpg235:scheme ;
+    skos:note "CPG 235 - Managing Data Risk s 57" ;
+    skos:prefLabel "Periodically cleanse data" .
+
+cpg235:0542 a skos:Concept ;
+    skos:broader cpg235:0540 ;
+    skos:inScheme cpg235:scheme ;
+    skos:note "CPG 235 - Managing Data Risk s 57" ;
+    skos:prefLabel "Ensure data quality remains at or above the required level" .
+
+cpg235:0543 a skos:Concept ;
+    skos:broader cpg235:0540 ;
+    skos:definition "As a result of new usages or changes to existing processes." ;
+    skos:inScheme cpg235:scheme ;
+    skos:note "CPG 235 - Managing Data Risk s 57" ;
+    skos:prefLabel "Data cleansing where the data quality level requirements change over time" .
+
+cpg235:0544 a skos:Concept ;
+    skos:broader cpg235:0540 ;
+    skos:definition "Such as a system migration." ;
+    skos:inScheme cpg235:scheme ;
+    skos:note "CPG 235 - Managing Data Risk s 57" ;
+    skos:prefLabel "Data cleansing when undergoing material change" .
+
+cpg235:0611 a skos:Concept ;
+    skos:broader cpg235:0610 ;
+    skos:definition "The strength of monitoring controls would typically be commensurate with the criticality and sensitivity of the data. APRA envisages that alerts would be investigated in a timely manner with an appropriate response to address anomalies." ;
+    skos:inScheme cpg235:scheme ;
+    skos:note "CPG 235 - Managing Data Risk s 58" ;
+    skos:prefLabel "Monitoring processes to identify potential data issues" .
+
+cpg235:0612 a skos:Concept ;
+    skos:broader cpg235:0610 ;
+    skos:inScheme cpg235:scheme ;
+    skos:note "CPG 235 - Managing Data Risk s 59" ;
+    skos:prefLabel "Clear allocation of responsibility for regular monitoring of data" .
+
+cpg235:0613 a skos:Concept ;
+    skos:broader cpg235:0610 ;
+    skos:inScheme cpg235:scheme ;
+    skos:note "CPG 235 - Managing Data Risk s 59" ;
+    skos:prefLabel "Appropriate processes and tools in place to manage the volume of monitoring required" .
+
+cpg235:0623 a skos:Concept ;
+    skos:broader cpg235:0622 ;
+    skos:inScheme cpg235:scheme ;
+    skos:note "CPG 235 - Managing Data Risk s 60" ;
+    skos:prefLabel "Detection" .
+
+cpg235:0624 a skos:Concept ;
+    skos:broader cpg235:0622 ;
+    skos:inScheme cpg235:scheme ;
+    skos:note "CPG 235 - Managing Data Risk s 60" ;
+    skos:prefLabel "Identification" .
+
+cpg235:0625 a skos:Concept ;
+    skos:broader cpg235:0622 ;
+    skos:inScheme cpg235:scheme ;
+    skos:note "CPG 235 - Managing Data Risk s 60" ;
+    skos:prefLabel "Containment" .
+
+cpg235:0626 a skos:Concept ;
+    skos:broader cpg235:0622 ;
+    skos:inScheme cpg235:scheme ;
+    skos:note "CPG 235 - Managing Data Risk s 60" ;
+    skos:prefLabel "Investigation, " .
+
+cpg235:0627 a skos:Concept ;
+    skos:broader cpg235:0622 ;
+    skos:inScheme cpg235:scheme ;
+    skos:note "CPG 235 - Managing Data Risk s 60" ;
+    skos:prefLabel "Evidence gathering" .
+
+cpg235:0628 a skos:Concept ;
+    skos:broader cpg235:0622 ;
+    skos:inScheme cpg235:scheme ;
+    skos:note "CPG 235 - Managing Data Risk s 60" ;
+    skos:prefLabel "Resolution" .
+
+cpg235:0629 a skos:Concept ;
+    skos:broader cpg235:0622 ;
+    skos:inScheme cpg235:scheme ;
+    skos:note "CPG 235 - Managing Data Risk s 60" ;
+    skos:prefLabel "Return to business-as-usual" .
+
+cpg235:0630 a skos:Concept ;
+    skos:broader cpg235:0622 ;
+    skos:definition "To reduce the risk of similar issues in the future." ;
+    skos:inScheme cpg235:scheme ;
+    skos:note "CPG 235 - Managing Data Risk s 60" ;
+    skos:prefLabel "Adjustment of controls" .
+
+cpg235:0632 a skos:Concept ;
+    skos:broader cpg235:0631 ;
+    skos:inScheme cpg235:scheme ;
+    skos:note "CPG 235 - Managing Data Risk s 60(a)" ;
+    skos:prefLabel "Processing errors impacting on the accuracy and completeness of balances and transactions" .
+
+cpg235:0633 a skos:Concept ;
+    skos:broader cpg235:0631 ;
+    skos:inScheme cpg235:scheme ;
+    skos:note "CPG 235 - Managing Data Risk s 60(b)" ;
+    skos:prefLabel "Lack of timeliness in updating data intended to reflect recent market conditions or assessments" .
+
+cpg235:0634 a skos:Concept ;
+    skos:broader cpg235:0631 ;
+    skos:inScheme cpg235:scheme ;
+    skos:note "CPG 235 - Managing Data Risk s 60(c)" ;
+    skos:prefLabel "Inadequate data availability, accuracy or consistency resulting in pricing and valuation errors" .
+
+cpg235:0635 a skos:Concept ;
+    skos:broader cpg235:0631 ;
+    skos:inScheme cpg235:scheme ;
+    skos:note "CPG 235 - Managing Data Risk s 60(d)" ;
+    skos:prefLabel "Data leakage leading to a breach of confidentiality" .
+
+cpg235:0636 a skos:Concept ;
+    skos:broader cpg235:0631 ;
+    skos:inScheme cpg235:scheme ;
+    skos:note "CPG 235 - Managing Data Risk s 60(e)" ;
+    skos:prefLabel "Failure to accurately execute instructions in a timely manner" .
+
+cpg235:0637 a skos:Concept ;
+    skos:broader cpg235:0631 ;
+    skos:inScheme cpg235:scheme ;
+    skos:note "CPG 235 - Managing Data Risk s 60(f)" ;
+    skos:prefLabel "Failure to maintain data quality when migrating data to another system" .
+
+cpg235:0638 a skos:Concept ;
+    skos:broader cpg235:0631 ;
+    skos:inScheme cpg235:scheme ;
+    skos:note "CPG 235 - Managing Data Risk s 60(g)" ;
+    skos:prefLabel "Data that is not fit-for-use, resulting in poor business decisions" .
+
+cpg235:0641 a skos:Concept ;
+    skos:broader cpg235:0640 ;
+    skos:inScheme cpg235:scheme ;
+    skos:note "CPG 235 - Managing Data Risk s 61(a)" ;
+    skos:prefLabel "Defined mechanisms and thresholds for escalation and reporting to the Board and senior management" .
+
+cpg235:0642 a skos:Concept ;
+    skos:broader cpg235:0640 ;
+    skos:inScheme cpg235:scheme ;
+    skos:note "CPG 235 - Managing Data Risk s 61(a)" ;
+    skos:prefLabel "Defined mechanisms and thresholds for customer communication" .
+
+cpg235:0643 a skos:Concept ;
+    skos:broader cpg235:0639 ;
+    skos:definition "Underlying cause of the issue is identified and analysed, with controls adjusted to reduce the likelihood of a future occurrence." ;
+    skos:inScheme cpg235:scheme ;
+    skos:note "CPG 235 - Managing Data Risk s 61(b)" ;
+    skos:prefLabel "Root cause analysis of the data issue" .
+
+cpg235:0644 a skos:Concept ;
+    skos:broader cpg235:0620 ;
+    skos:definition "In APRA's view, it could be beneficial for data users to provide feedback to data providers, both within the regulated entity as well as external parties, whenever data quality falls below the quality required." ;
+    skos:inScheme cpg235:scheme ;
+    skos:note "CPG 235 - Managing Data Risk s 62" ;
+    skos:prefLabel "Provide feedback to data providers whenever data quality falls below the quality required" .
+
+cpg235:0647 a skos:Concept ;
+    skos:broader cpg235:0646 ;
+    skos:inScheme cpg235:scheme ;
+    skos:note "CPG 235 - Managing Data Risk s 63(a)" ;
+    skos:prefLabel "Areas where there are regulatory, legal and specific industry requirements" .
+
+cpg235:0648 a skos:Concept ;
+    skos:broader cpg235:0646 ;
+    skos:definition "As determined by the risk assessment process." ;
+    skos:inScheme cpg235:scheme ;
+    skos:note "CPG 235 - Managing Data Risk s 63(b)" ;
+    skos:prefLabel "Areas that have the greatest sensitivity/criticality" .
+
+cpg235:0651 a skos:Concept ;
+    skos:broader cpg235:0650 ;
+    skos:inScheme cpg235:scheme ;
+    skos:note "CPG 235 - Managing Data Risk s 64" ;
+    skos:prefLabel "Specific" .
+
+cpg235:0652 a skos:Concept ;
+    skos:broader cpg235:0650 ;
+    skos:inScheme cpg235:scheme ;
+    skos:note "CPG 235 - Managing Data Risk s 64" ;
+    skos:prefLabel "Measurable" .
+
+cpg235:0653 a skos:Concept ;
+    skos:broader cpg235:0650 ;
+    skos:inScheme cpg235:scheme ;
+    skos:note "CPG 235 - Managing Data Risk s 64" ;
+    skos:prefLabel "Business oriented" .
+
+cpg235:0654 a skos:Concept ;
+    skos:broader cpg235:0650 ;
+    skos:inScheme cpg235:scheme ;
+    skos:note "CPG 235 - Managing Data Risk s 64" ;
+    skos:prefLabel "Controllable" .
+
+cpg235:0655 a skos:Concept ;
+    skos:broader cpg235:0650 ;
+    skos:inScheme cpg235:scheme ;
+    skos:note "CPG 235 - Managing Data Risk s 64" ;
+    skos:prefLabel "Reportable" .
+
+cpg235:0656 a skos:Concept ;
+    skos:broader cpg235:0650 ;
+    skos:inScheme cpg235:scheme ;
+    skos:note "CPG 235 - Managing Data Risk s 64" ;
+    skos:prefLabel "Involve the inspection of data" .
+
+cpg235:0658 a skos:Concept ;
+    skos:broader cpg235:0657 ;
+    skos:inScheme cpg235:scheme ;
+    skos:note "CPG 235 - Managing Data Risk s 64" ;
+    skos:prefLabel "Error rates" .
+
+cpg235:0659 a skos:Concept ;
+    skos:broader cpg235:0657 ;
+    skos:inScheme cpg235:scheme ;
+    skos:note "CPG 235 - Managing Data Risk s 64" ;
+    skos:prefLabel "Timeliness measures" .
+
+cpg235:0660 a skos:Concept ;
+    skos:broader cpg235:0657 ;
+    skos:inScheme cpg235:scheme ;
+    skos:note "CPG 235 - Managing Data Risk s 64" ;
+    skos:prefLabel "Materiality thresholds" .
+
+cpg235:0661 a skos:Concept ;
+    skos:broader cpg235:0657 ;
+    skos:inScheme cpg235:scheme ;
+    skos:note "CPG 235 - Managing Data Risk s 64" ;
+    skos:prefLabel "Reconciliation exceptions" .
+
+cpg235:0664 a skos:Concept ;
+    skos:broader cpg235:0663 ;
+    skos:inScheme cpg235:scheme ;
+    skos:note "CPG 235 - Managing Data Risk s 65" ;
+    skos:prefLabel "Target data quality metrics" .
+
+cpg235:0665 a skos:Concept ;
+    skos:broader cpg235:0663 ;
+    skos:inScheme cpg235:scheme ;
+    skos:note "CPG 235 - Managing Data Risk s 65" ;
+    skos:prefLabel "Timeframes for resolution" .
+
+cpg235:0666 a skos:Concept ;
+    skos:broader cpg235:0663 ;
+    skos:definition "Action plans would typically be prioritised and tracked. " ;
+    skos:inScheme cpg235:scheme ;
+    skos:note "CPG 235 - Managing Data Risk s 65" ;
+    skos:prefLabel "Associated action plans for closing gaps" .
+
+cpg235:0702 a skos:Concept ;
+    skos:broader cpg235:0701 ;
+    skos:definition "APRA expects that a regulated entity would seek regular assurance that data quality is appropriate and data risk management is effective. This would normally be implemented through the broader assurance program and result in a systematic assessment of data risk and the control environment over time. Assurance responsibilities would typically be conducted by internal audit or another independent function." ;
+    skos:inScheme cpg235:scheme ;
+    skos:note "CPG 235 - Managing Data Risk s 66" ;
+    skos:prefLabel "Broader assurance program" .
+
+cpg235:0703 a skos:Concept ;
+    skos:broader cpg235:0701 ;
+    skos:inScheme cpg235:scheme ;
+    skos:note "CPG 235 - Managing Data Risk s 66" ;
+    skos:prefLabel "Systematic assessment of data risk and the control environment over time" .
+
+cpg235:0712 a skos:Concept ;
+    skos:broader cpg235:0711 ;
+    skos:inScheme cpg235:scheme ;
+    skos:note "CPG 235 - Managing Data Risk s 67(a)" ;
+    skos:prefLabel "Inspection of data" .
+
+cpg235:0713 a skos:Concept ;
+    skos:broader cpg235:0711 ;
+    skos:inScheme cpg235:scheme ;
+    skos:note "CPG 235 - Managing Data Risk s 67(b)" ;
+    skos:prefLabel "Data risk management review" .
+
+cpg235:0714 a skos:Concept ;
+    skos:broader cpg235:0711 ;
+    skos:inScheme cpg235:scheme ;
+    skos:note "CPG 235 - Managing Data Risk s 67(c)" ;
+    skos:prefLabel "General information technology control review" .
+
+cpg235:0715 a skos:Concept ;
+    skos:broader cpg235:0711 ;
+    skos:inScheme cpg235:scheme ;
+    skos:note "CPG 235 - Managing Data Risk s 67(d)" ;
+    skos:prefLabel "Data architecture review" .
+
+cpg235:0716 a skos:Concept ;
+    skos:broader cpg235:0711 ;
+    skos:inScheme cpg235:scheme ;
+    skos:note "CPG 235 - Managing Data Risk s 67(e)" ;
+    skos:prefLabel "Data governance review" .
+
+cpg235:0717 a skos:Concept ;
+    skos:broader cpg235:0711 ;
+    skos:inScheme cpg235:scheme ;
+    skos:note "CPG 235 - Managing Data Risk s 67(f)" ;
+    skos:prefLabel "Data metrics review" .
+
+cpg235:0718 a skos:Concept ;
+    skos:broader cpg235:0711 ;
+    skos:inScheme cpg235:scheme ;
+    skos:note "CPG 235 - Managing Data Risk s 67(f)" ;
+    skos:prefLabel "Data quality plan review" .
+
+cpg235:0719 a skos:Concept ;
+    skos:broader cpg235:0710 ;
+    skos:definition "The schedule of testing would typically ensure that all aspects of the data control environment are assessed over time, commensurate with the sensitivity and criticality of the data." ;
+    skos:inScheme cpg235:scheme ;
+    skos:note "CPG 235 - Managing Data Risk s 68" ;
+    skos:prefLabel "Schedule of testing" .
+
+cpg235:0018 a skos:Concept ;
+    skos:broader cpg235:0001 ;
+    skos:inScheme cpg235:scheme ;
+    skos:prefLabel "Industry baselines" .
+
+cpg235:0113 a skos:Concept ;
+    skos:broader cpg235:0100 ;
+    skos:inScheme cpg235:scheme ;
+    skos:prefLabel "Principles-based approach" .
+
+cpg235:0121 a skos:Concept ;
+    skos:broader cpg235:0100 ;
+    skos:inScheme cpg235:scheme ;
+    skos:prefLabel "Roles and responsibilities" .
+
+cpg235:0162 a skos:Concept ;
+    skos:broader cpg235:0142 ;
+    skos:definition "To facilitate the development of systems, data repositories, interfaces (including exchange of data with external parties) and data controls. This would normally include approved technologies (e.g. applications, data base management systems and data integration .tools)." ;
+    skos:inScheme cpg235:scheme ;
+    skos:note "CPG 235 - Managing Data Risk s 28(e)" ;
+    skos:prefLabel "Standards and guidelines" .
+
+cpg235:0204 a skos:Concept ;
+    skos:broader cpg235:0200 ;
+    skos:inScheme cpg235:scheme ;
+    skos:prefLabel "Staff education areas" .
+
+cpg235:0301 a skos:Concept ;
+    skos:broader cpg235:0300 ;
+    skos:inScheme cpg235:scheme ;
+    skos:prefLabel "Data risk considered at all stages" .
+
+cpg235:0308 a skos:Concept ;
+    skos:broader cpg235:0300 ;
+    skos:inScheme cpg235:scheme ;
+    skos:prefLabel "Capture controls" .
+
+cpg235:0313 a skos:Concept ;
+    skos:broader cpg235:0300 ;
+    skos:inScheme cpg235:scheme ;
+    skos:prefLabel "Processing controls" .
+
+cpg235:0408 a skos:Concept ;
+    skos:broader cpg235:0400 ;
+    skos:definition "Current technologies allow for end-users to develop/configure software for the purpose of automating day-to-day business processes, facilitating decision-making and storing data. In addition, software is increasingly designed to enable extraction of data by users. This creates a risk that data life-cycle controls may be inadequate given that end-user developed/configured software is not typically subject to the controls that a technology function would apply." ;
+    skos:inScheme cpg235:scheme ;
+    skos:note "CPG 235 - Managing Data Risk s 45" ;
+    skos:prefLabel "End-user computing" .
+
+cpg235:0662 a skos:Concept ;
+    skos:broader cpg235:0645 ;
+    skos:inScheme cpg235:scheme ;
+    skos:note "CPG 235 - Managing Data Risk s 65" ;
+    skos:prefLabel "Systematic way to address data quality gaps" .
+
+cpg235:0002 a skos:Concept ;
+    skos:broader cpg235:0001 ;
+    skos:inScheme cpg235:scheme ;
+    skos:prefLabel "Data quality" .
+
+cpg235:0015 a skos:Concept ;
+    skos:broader cpg235:0001 ;
+    skos:definition "For the purposes of managing data risk, a regulated entity would typically classify data based on business criticality and sensitivity. The assessment would typically take into account the end-to-end use of the data. A regulated entity could seek to leverage the existing business impact analysis process to achieve this. The entity's data classification method and granularity would normally be determined by the requirements of the business." ;
+    skos:inScheme cpg235:scheme ;
+    skos:note "CPG 235 - Managing Data Risk s 18" ;
+    skos:prefLabel "Classification by criticality and sensitivity" .
+
+cpg235:0101 a skos:Concept ;
+    skos:broader cpg235:0100 ;
+    skos:inScheme cpg235:scheme ;
+    skos:prefLabel "Overarching framework" .
+
+cpg235:0110 a skos:Concept ;
+    skos:broader cpg235:0101 ;
+    skos:inScheme cpg235:scheme ;
+    skos:note "CPG 235 - Managing Data Risk s 21" ;
+    skos:prefLabel "Establishment and ongoing development of the data risk management framework" .
+
+cpg235:0129 a skos:Concept ;
+    skos:broader cpg235:0100 ;
+    skos:inScheme cpg235:scheme ;
+    skos:prefLabel "Ongoing compliance" .
+
+cpg235:0200 a skos:Concept ;
+    skos:inScheme cpg235:scheme ;
+    skos:prefLabel "Staff awareness" ;
+    skos:topConceptOf cpg235:scheme .
+
+cpg235:0201 a skos:Concept ;
+    skos:broader cpg235:0200 ;
+    skos:inScheme cpg235:scheme ;
+    skos:prefLabel "Training and awareness program" .
+
+cpg235:0321 a skos:Concept ;
+    skos:broader cpg235:0320 ;
+    skos:definition "APRA's prudential standards and prudential practice guides on security, business continuity management and outsourcing provide specific requirements and guidance in this area." ;
+    skos:inScheme cpg235:scheme ;
+    skos:note "CPG 235 - Managing Data Risk s 36" ;
+    skos:prefLabel "Controls to ensure that data requirements are not compromised as a result of risks associated with the storage of data" .
+
+cpg235:0324 a skos:Concept ;
+    skos:broader cpg235:0320 ;
+    skos:inScheme cpg235:scheme ;
+    skos:note "CPG 235 - Managing Data Risk s 37" ;
+    skos:prefLabel "Formal retention strategy" .
+
+cpg235:0331 a skos:Concept ;
+    skos:broader cpg235:0320 ;
+    skos:definition "These controls would typically include appropriate segregation of duties, to reduce the potential for the actions of an individual to compromise data quality." ;
+    skos:inScheme cpg235:scheme ;
+    skos:note "CPG 235 - Managing Data Risk s 38" ;
+    skos:prefLabel "Protocols for data correction" .
+
+cpg235:0405 a skos:Concept ;
+    skos:broader cpg235:0400 ;
+    skos:definition "The process of reducing a data set's sensitivity to a level which complies with the authorised access of the end-user." ;
+    skos:inScheme cpg235:scheme ;
+    skos:note "CPG 235 - Managing Data Risk s 44" ;
+    skos:prefLabel "Desensitisation" .
+
+cpg235:0500 a skos:Concept ;
+    skos:inScheme cpg235:scheme ;
+    skos:prefLabel "Data validation" ;
+    skos:topConceptOf cpg235:scheme .
+
+cpg235:0513 a skos:Concept ;
+    skos:broader cpg235:0510 ;
+    skos:inScheme cpg235:scheme ;
+    skos:note "CPG 235 - Managing Data Risk s 53" ;
+    skos:prefLabel "Considerations when validating data" .
+
+cpg235:0621 a skos:Concept ;
+    skos:broader cpg235:0620 ;
+    skos:inScheme cpg235:scheme ;
+    skos:note "CPG 235 - Managing Data Risk s 60" ;
+    skos:prefLabel "Appropriate processes to manage all stages of a data issue" .
+
+cpg235:0639 a skos:Concept ;
+    skos:broader cpg235:0620 ;
+    skos:definition "Due to resource constraints, regulated entities would normally prioritise remediation of data issues. A combination of tactical and strategic solutions may be required, depending on the root cause, including containment of identified issues. " ;
+    skos:inScheme cpg235:scheme ;
+    skos:note "CPG 235 - Managing Data Risk s 61" ;
+    skos:prefLabel "Data issue management capabilities" .
+
+cpg235:0640 a skos:Concept ;
+    skos:broader cpg235:0639 ;
+    skos:definition "Issue management strategies would also typically assist in compliance with regulatory and legal requirements." ;
+    skos:inScheme cpg235:scheme ;
+    skos:note "CPG 235 - Managing Data Risk s 61(a)" ;
+    skos:prefLabel "Clear accountability and communication strategies to limit the impact of data issues" .
+
+cpg235:0646 a skos:Concept ;
+    skos:broader cpg235:0645 ;
+    skos:inScheme cpg235:scheme ;
+    skos:note "CPG 235 - Managing Data Risk s 63" ;
+    skos:prefLabel "Areas to target the use of metrics" .
+
+cpg235:0649 a skos:Concept ;
+    skos:broader cpg235:0645 ;
+    skos:inScheme cpg235:scheme ;
+    skos:note "CPG 235 - Managing Data Risk s 64" ;
+    skos:prefLabel "Each dimension of data quality measured by at least one metric" .
+
+cpg235:0700 a skos:Concept ;
+    skos:inScheme cpg235:scheme ;
+    skos:prefLabel "Data risk management assurance" ;
+    skos:topConceptOf cpg235:scheme .
+
+cpg235:0701 a skos:Concept ;
+    skos:broader cpg235:0700 ;
+    skos:inScheme cpg235:scheme ;
+    skos:prefLabel "Assurance program" .
+
+cpg235:0710 a skos:Concept ;
+    skos:broader cpg235:0700 ;
+    skos:inScheme cpg235:scheme ;
+    skos:prefLabel "Frequency of assurance" .
+
+cpg235:0001 a skos:Concept ;
+    skos:inScheme cpg235:scheme ;
+    skos:prefLabel "Data and data risk" ;
+    skos:topConceptOf cpg235:scheme .
+
+cpg235:0132 a skos:Concept ;
+    skos:broader cpg235:0100 ;
+    skos:inScheme cpg235:scheme ;
+    skos:prefLabel "Ongoing assessment of effectiveness" .
+
+cpg235:0136 a skos:Concept ;
+    skos:broader cpg235:0100 ;
+    skos:definition "This can range from system documentation provided by vendors to an enterprise-wide data architecture." ;
+    skos:inScheme cpg235:scheme ;
+    skos:prefLabel "Data Architecture" .
+
+cpg235:0163 a skos:Concept ;
+    skos:broader cpg235:0162 ;
+    skos:inScheme cpg235:scheme ;
+    skos:note "CPG 235 - Managing Data Risk s 28(e)" ;
+    skos:prefLabel "Approved technologies" .
+
+cpg235:0309 a skos:Concept ;
+    skos:broader cpg235:0308 ;
+    skos:definition "Data capture controls, including manual entry of data as well as automated data feeds from internal business units and external sources, would typically be designed to ensure that newly introduced data meets data quality requirements." ;
+    skos:inScheme cpg235:scheme ;
+    skos:note "CPG 235 - Managing Data Risk s 34" ;
+    skos:prefLabel "Controls designed to ensure that newly introduced data meets data quality requirements" .
+
+cpg235:0320 a skos:Concept ;
+    skos:broader cpg235:0300 ;
+    skos:inScheme cpg235:scheme ;
+    skos:prefLabel "Retention controls" .
+
+cpg235:0341 a skos:Concept ;
+    skos:broader cpg235:0340 ;
+    skos:definition "Data publication refers to the production of information for internal and external stakeholders (e.g. operational information, management information, customer information, media releases, regulatory reporting)." ;
+    skos:inScheme cpg235:scheme ;
+    skos:note "CPG 235 - Managing Data Risk s 39" ;
+    skos:prefLabel "Controls to ensure that published data meets the understood content and quality requirements of users" .
+
+cpg235:0360 a skos:Concept ;
+    skos:broader cpg235:0300 ;
+    skos:inScheme cpg235:scheme ;
+    skos:prefLabel "Disposal controls" .
+
+cpg235:0363 a skos:Concept ;
+    skos:broader cpg235:0360 ;
+    skos:inScheme cpg235:scheme ;
+    skos:note "CPG 235 - Managing Data Risk s 42" ;
+    skos:prefLabel "Examples of disposal controls" .
+
+cpg235:0401 a skos:Concept ;
+    skos:broader cpg235:0400 ;
+    skos:definition "The ability to confirm the origin of data and provide transparency of all alterations." ;
+    skos:inScheme cpg235:scheme ;
+    skos:note "CPG 235 - Managing Data Risk s 43" ;
+    skos:prefLabel "Auditability" .
+
+cpg235:0530 a skos:Concept ;
+    skos:broader cpg235:0510 ;
+    skos:definition "A regulated entity would normally document data validation processes, including their nature, frequency and level of granularity." ;
+    skos:inScheme cpg235:scheme ;
+    skos:note "CPG 235 - Managing Data Risk s 56" ;
+    skos:prefLabel "Document data validation processes" .
+
+cpg235:0600 a skos:Concept ;
+    skos:inScheme cpg235:scheme ;
+    skos:prefLabel "Monitoring and management of data issues" ;
+    skos:topConceptOf cpg235:scheme .
+
+cpg235:0610 a skos:Concept ;
+    skos:broader cpg235:0600 ;
+    skos:inScheme cpg235:scheme ;
+    skos:prefLabel "Monitoring processes" .
+
+cpg235:0620 a skos:Concept ;
+    skos:broader cpg235:0600 ;
+    skos:inScheme cpg235:scheme ;
+    skos:prefLabel "Data issue management" .
+
+cpg235:0645 a skos:Concept ;
+    skos:broader cpg235:0600 ;
+    skos:inScheme cpg235:scheme ;
+    skos:prefLabel "Data quality metrics" .
+
+cpg235:0663 a skos:Concept ;
+    skos:broader cpg235:0662 ;
+    skos:inScheme cpg235:scheme ;
+    skos:note "CPG 235 - Managing Data Risk s 65" ;
+    skos:prefLabel "Data quality plan" .
+
+cpg235:0010 a skos:Concept ;
+    skos:broader cpg235:0002 ;
+    skos:definition "Depending on the nature and use of specific data." ;
+    skos:inScheme cpg235:scheme ;
+    skos:note "CPG 235 - Managing Data Risk s 17" ;
+    skos:prefLabel "Other dimensions" .
+
+cpg235:0137 a skos:Concept ;
+    skos:broader cpg235:0136 ;
+    skos:inScheme cpg235:scheme ;
+    skos:note "CPG 235 - Managing Data Risk s 27" ;
+    skos:prefLabel "Effectiveness of data risk management" .
+
+cpg235:0205 a skos:Concept ;
+    skos:broader cpg235:0204 ;
+    skos:definition "In APRA's view, a regulated entity would regularly educate users as to their responsibilities in maintaining data quality." ;
+    skos:inScheme cpg235:scheme ;
+    skos:note "CPG 235 - Managing Data Risk s 32" ;
+    skos:prefLabel "Responsibilities in maintaining data quality" .
+
+cpg235:0314 a skos:Concept ;
+    skos:broader cpg235:0313 ;
+    skos:inScheme cpg235:scheme ;
+    skos:note "CPG 235 - Managing Data Risk s 35" ;
+    skos:prefLabel "Controls to ensure that data processing and the output generated continue to meet data quality requirements" .
+
+cpg235:0325 a skos:Concept ;
+    skos:broader cpg235:0324 ;
+    skos:inScheme cpg235:scheme ;
+    skos:note "CPG 235 - Managing Data Risk s 37" ;
+    skos:prefLabel "Common issues in data retention" .
+
+cpg235:0340 a skos:Concept ;
+    skos:broader cpg235:0300 ;
+    skos:inScheme cpg235:scheme ;
+    skos:prefLabel "Publication controls" .
+
+cpg235:0342 a skos:Concept ;
+    skos:broader cpg235:0341 ;
+    skos:inScheme cpg235:scheme ;
+    skos:note "CPG 235 - Managing Data Risk s 39(a)" ;
+    skos:prefLabel "Acquisition and implementation controls for new publication mechanisms" .
+
+cpg235:0400 a skos:Concept ;
+    skos:inScheme cpg235:scheme ;
+    skos:prefLabel "Other control considerations" ;
+    skos:topConceptOf cpg235:scheme .
+
+cpg235:0410 a skos:Concept ;
+    skos:broader cpg235:0400 ;
+    skos:definition "Continued industry developments allow a regulated entity to more easily move data management responsibilities to service providers or other entities within a group (both on- and offshore). This increases the risk that data life-cycle controls may be inadequate, with problems potentially magnified when offshoring is involved. The possible causes of this increased risk include control framework variations, lack of proximity, reduced corporate allegiance, geopolitical risks and jurisdictional-specific requirements. " ;
+    skos:inScheme cpg235:scheme ;
+    skos:note "CPG 235 - Managing Data Risk s 47" ;
+    skos:prefLabel "Outsourcing/offshoring of data management responsibilities" .
+
+cpg235:0413 a skos:Concept ;
+    skos:broader cpg235:0410 ;
+    skos:inScheme cpg235:scheme ;
+    skos:note "CPG 235 - Managing Data Risk s 49" ;
+    skos:prefLabel "Demonstrable capabilities when  outsourcing/offshoring data management responsibilities" .
+
+cpg235:0534 a skos:Concept ;
+    skos:broader cpg235:0510 ;
+    skos:definition "In APRA's view, data validation processes can be a key consideration when designing data quality metrics." ;
+    skos:inScheme cpg235:scheme ;
+    skos:note "CPG 235 - Managing Data Risk s 56" ;
+    skos:prefLabel "Provide clear allocation of accountabilities" .
+
+cpg235:0540 a skos:Concept ;
+    skos:broader cpg235:0500 ;
+    skos:definition "Act of detecting and correcting, including data removal or addition of missing data, erroneous data.  Erroneous data is anything that does not meet the quality objectives of the regulated entity." ;
+    skos:inScheme cpg235:scheme ;
+    skos:note "CPG 235 - Managing Data Risk s 57" ;
+    skos:prefLabel "Data cleansing" .
+
+cpg235:0657 a skos:Concept ;
+    skos:broader cpg235:0649 ;
+    skos:inScheme cpg235:scheme ;
+    skos:note "CPG 235 - Managing Data Risk s 64" ;
+    skos:prefLabel "Examples of data quality metrics" .
+
+cpg235:0142 a skos:Concept ;
+    skos:broader cpg235:0136 ;
+    skos:definition "Data risk management could be supported by the use of data architecture practices. These practices assist in understanding how data is captured, processed, retained, published and disposed of. The sophistication of the data architecture would normally be commensurate with data risk." ;
+    skos:inScheme cpg235:scheme ;
+    skos:note "CPG 235 - Managing Data Risk s 28" ;
+    skos:prefLabel "Data architecture practices" .
+
+cpg235:0155 a skos:Concept ;
+    skos:broader cpg235:0142 ;
+    skos:inScheme cpg235:scheme ;
+    skos:note "CPG 235 - Managing Data Risk s 28(c)" ;
+    skos:prefLabel "Diagrams and detailed technical information" .
+
+cpg235:0302 a skos:Concept ;
+    skos:broader cpg235:0301 ;
+    skos:definition "APRA envisages that a regulated entity would ensure that data risk is considered at each stage of its life-cycle and that appropriate controls are implemented to ensure that data requirements are met. Data-related life-cycle stages typically include data capture, processing, retention, publication and disposal." ;
+    skos:inScheme cpg235:scheme ;
+    skos:note "CPG 235 - Managing Data Risk s 33" ;
+    skos:prefLabel "Data risk is considered at each stage of its life-cycle" .
+
+cpg235:0524 a skos:Concept ;
+    skos:broader cpg235:0510 ;
+    skos:inScheme cpg235:scheme ;
+    skos:note "CPG 235 - Managing Data Risk s 54" ;
+    skos:prefLabel "Common forms of data validation at dataset level" .
+
+cpg235:0003 a skos:Concept ;
+    skos:broader cpg235:0002 ;
+    skos:definition "In APRA's view, a useful technique for managing data risk is through the assessment and management of data quality. Data quality can be assessed using a range of dimensions. The relevance of each of these dimensions will vary depending upon the nature of the data." ;
+    skos:inScheme cpg235:scheme ;
+    skos:note "CPG 235 - Managing Data Risk s 16" ;
+    skos:prefLabel "Data quality dimensions" .
+
+cpg235:0100 a skos:Concept ;
+    skos:inScheme cpg235:scheme ;
+    skos:prefLabel "A systematic and formalised approach" ;
+    skos:topConceptOf cpg235:scheme .
+
+cpg235:0114 a skos:Concept ;
+    skos:broader cpg235:0113 ;
+    skos:definition "APRA envisages that a regulated entity would adopt a set of high-level principles in order to establish a sound foundation for data risk management." ;
+    skos:inScheme cpg235:scheme ;
+    skos:note "CPG 235 - Managing Data Risk s 22" ;
+    skos:prefLabel "Principles" .
+
+cpg235:0122 a skos:Concept ;
+    skos:broader cpg235:0121 ;
+    skos:definition "A key element in effective data risk management is the allocation of formal roles and responsibilities (pertaining to data) to appropriately skilled staff. This would typically articulate the data risk management responsibilities of staff, customers, service providers and other third parties." ;
+    skos:inScheme cpg235:scheme ;
+    skos:note "CPG 235 - Managing Data Risk s 23" ;
+    skos:prefLabel "Allocation of formal roles and responsibilities" .
+
+cpg235:0300 a skos:Concept ;
+    skos:inScheme cpg235:scheme ;
+    skos:prefLabel "Data life-cycle management" ;
+    skos:topConceptOf cpg235:scheme .
+
+cpg235:0650 a skos:Concept ;
+    skos:broader cpg235:0649 ;
+    skos:inScheme cpg235:scheme ;
+    skos:note "CPG 235 - Managing Data Risk s 64" ;
+    skos:prefLabel "Characteristics of effective metrics" .
+
+cpg235:0102 a skos:Concept ;
+    skos:broader cpg235:0101 ;
+    skos:definition "In order to ensure that data risk management is not conducted in an ad hoc and fragmented manner, a regulated entity would typically adopt a systematic and formalised approach that ensures data risk is taken into consideration as part of its change management and business-as-usual processes. This could be encapsulated in a formally approved data risk management framework outlining the entity's approach to managing data risk." ;
+    skos:inScheme cpg235:scheme ;
+    skos:note "CPG 235 - Managing Data Risk s 20" ;
+    skos:prefLabel "Formally approved data risk management framework" .
+
+cpg235:0418 a skos:Concept ;
+    skos:broader cpg235:0410 ;
+    skos:inScheme cpg235:scheme ;
+    skos:note "CPG 235 - Managing Data Risk s 50" ;
+    skos:prefLabel "Assessment and ongoing management of outsourced/offshored data management responsibilities" .
+
+cpg235:0510 a skos:Concept ;
+    skos:broader cpg235:0500 ;
+    skos:inScheme cpg235:scheme ;
+    skos:prefLabel "Assessment of fitness for use" .
+
+cpg235:0516 a skos:Concept ;
+    skos:broader cpg235:0510 ;
+    skos:inScheme cpg235:scheme ;
+    skos:note "CPG 235 - Managing Data Risk s 54" ;
+    skos:prefLabel "Common forms of data validation" .
+
+cpg235:0631 a skos:Concept ;
+    skos:broader cpg235:0621 ;
+    skos:inScheme cpg235:scheme ;
+    skos:note "CPG 235 - Managing Data Risk s 60" ;
+    skos:prefLabel "Common data issues" .
+
+cpg235:0711 a skos:Concept ;
+    skos:broader cpg235:0710 ;
+    skos:definition "A regulated entity would benefit from a multi-year schedule of testing that incorporates both adequacy and compliance-type reviews, with the program of work determined on a risk basis. Additional assurance work may be triggered by changes to vulnerabilities/threats or material changes to the business/information technology environment." ;
+    skos:inScheme cpg235:scheme ;
+    skos:note "CPG 235 - Managing Data Risk s 67" ;
+    skos:prefLabel "Multi-year schedule of testing" .
+
+cpg235:0622 a skos:Concept ;
+    skos:broader cpg235:0621 ;
+    skos:inScheme cpg235:scheme ;
+    skos:note "CPG 235 - Managing Data Risk s 60" ;
+    skos:prefLabel "Stages of data issue" .
+
+cpg235:0144 a skos:Concept ;
+    skos:altLabel "Metadata" ;
+    skos:broader cpg235:0142 ;
+    skos:definition "This could include definitions, descriptions, sources, usages, update mechanisms, owners, authorised users, criticality, sensitivity and quality requirements. Metadata is often embodied in a data dictionary." ;
+    skos:inScheme cpg235:scheme ;
+    skos:note "CPG 235 - Managing Data Risk s 28(b)" ;
+    skos:prefLabel "Characteristics of the data" .
+
+cpg235:scheme a skos:ConceptScheme ;
+    dcterms:source <https://www.apra.gov.au/sites/default/files/CPG-235-Managing-Data-Risk.pdf> ;
+    pav:version "0.0.1" ;
+    skos:definition """Prudential practice guides (PPGs) provide guidance on APRA's view of sound practice in particular areas. PPGs frequently discuss legal requirements from legislation, regulations or APRA's prudential standards, but do not themselves create enforceable requirements.\r
+This PPG aims to assist regulated entities in managing data risk. It is designed to provide guidance to senior management, risk management and technical specialists (both management and operational). The PPG targets areas where APRA continues to identify weaknesses as part of its ongoing supervisory activities. The PPG does not seek to provide an all-encompassing framework, or to replace or endorse existing industry standards and guidelines.\r
+Subject to meeting APRA's prudential requirements, a regulated entity has the flexibility to manage data risk in a manner that is best suited to achieving its business objectives. Not all of the practices outlined in this PPG will be relevant for every regulated entity and some aspects may vary depending upon the size, complexity and risk profile of the entity.""" ;
+    skos:prefLabel "APRA CPG 235 - Managing Data Risk (September 2013)" .
+
