@@ -2,13 +2,13 @@
 
 This taxonomy is derived from [CPG 235 - Managing Data Risk](https://www.apra.gov.au/managing-data-risk).
 
-Use it with [Confluence](https://www.atlassian.com/software/confluence) to index pages and track alignment with CPG 235.
+Use it with [Taxonomies for Confluence](https://dalstonsemantics.com/services/taxonomies-for-confluence/) to index [Confluence](https://www.atlassian.com/software/confluence) pages and track alignment with CPG 235.
 
-![CPG 235 in Confluence Semantics - Import](cpg235-confluence-import.png "CPG 235 in Confluence Semantics - Import")
+![CPG 235 in Taxonomies for Confluence - Import](cpg235-confluence-import.png "CPG 235 in Taxonomies for Confluence - Import")
 
-![CPG 235 in Confluence Semantics - Index](cpg235-confluence-index.png "CPG 235 in Confluence Semantics - Index")
+![CPG 235 in Taxonomies for Confluence - Index](cpg235-confluence-index.png "CPG 235 in Taxonomies for Confluence - Index")
 
-![CPG 235 in Confluence Semantics - Track](cpg235-confluence-track.png "CPG 235 in Confluence Semantics - Track")
+![CPG 235 in Taxonomies for Confluence - Track](cpg235-confluence-track.png "CPG 235 in Taxonomies for Confluence - Track")
 
 Developed with [Simple Knowledge Organization System (SKOS)](https://www.w3.org/2004/02/skos/) this taxonomy can also be imported and published with [controlled vocabulary tools](https://github.com/gbv/bartoc.org/wiki/Software-for-controlled-vocabularies) to improve staff awareness of data risks.
 
