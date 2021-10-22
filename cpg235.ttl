@@ -113,13 +113,13 @@ cpg235:0106 a skos:Concept ;
     skos:broader cpg235:0102 ;
     skos:inScheme cpg235:scheme ;
     skos:note "CPG 235 - Managing Data Risk s 20(d)" ;
-    skos:prefLabel "Designated owner or owners" .
+    skos:prefLabel "Assignment of designated owner or owners" .
 
 cpg235:0107 a skos:Concept ;
     skos:broader cpg235:0102 ;
     skos:inScheme cpg235:scheme ;
     skos:note "CPG 235 - Managing Data Risk s 20(e)" ;
-    skos:prefLabel "Roles and responsibilities" .
+    skos:prefLabel "Outlines of roles and responsibilities" .
 
 cpg235:0108 a skos:Concept ;
     skos:broader cpg235:0102 ;
@@ -131,7 +131,7 @@ cpg235:0109 a skos:Concept ;
     skos:broader cpg235:0102 ;
     skos:inScheme cpg235:scheme ;
     skos:note "CPG 235 - Managing Data Risk s 20(g)" ;
-    skos:prefLabel "Reviews on regular basis" .
+    skos:prefLabel "Reviews on a regular basis" .
 
 cpg235:0111 a skos:Concept ;
     skos:broader cpg235:0110 ;
@@ -966,7 +966,7 @@ cpg235:0613 a skos:Concept ;
     skos:broader cpg235:0610 ;
     skos:inScheme cpg235:scheme ;
     skos:note "CPG 235 - Managing Data Risk s 59" ;
-    skos:prefLabel "Appropriate processes and tools in place to manage the volume of monitoring required" .
+    skos:prefLabel "Appropriate processes and tools are in place to manage the volume of monitoring required" .
 
 cpg235:0623 a skos:Concept ;
     skos:broader cpg235:0622 ;
@@ -1706,7 +1706,7 @@ cpg235:0144 a skos:Concept ;
 
 cpg235:scheme a skos:ConceptScheme ;
     dcterms:source <https://www.apra.gov.au/sites/default/files/CPG-235-Managing-Data-Risk.pdf> ;
-    pav:version "0.0.1" ;
+    pav:version "0.0.2" ;
     skos:definition """Prudential practice guides (PPGs) provide guidance on APRA's view of sound practice in particular areas. PPGs frequently discuss legal requirements from legislation, regulations or APRA's prudential standards, but do not themselves create enforceable requirements.\r
 This PPG aims to assist regulated entities in managing data risk. It is designed to provide guidance to senior management, risk management and technical specialists (both management and operational). The PPG targets areas where APRA continues to identify weaknesses as part of its ongoing supervisory activities. The PPG does not seek to provide an all-encompassing framework, or to replace or endorse existing industry standards and guidelines.\r
 Subject to meeting APRA's prudential requirements, a regulated entity has the flexibility to manage data risk in a manner that is best suited to achieving its business objectives. Not all of the practices outlined in this PPG will be relevant for every regulated entity and some aspects may vary depending upon the size, complexity and risk profile of the entity.""" ;

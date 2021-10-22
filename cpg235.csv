@@ -1,7 +1,7 @@
 @id,rdf:type,skos:prefLabel,skos:altLabel,skos:definition,skos:note,skos:inScheme,skos:broader,skos:topConceptOf,pav:version,dcterms:source
 cpg235:scheme,skos:ConceptScheme,APRA CPG 235 - Managing Data Risk (September 2013),,"Prudential practice guides (PPGs) provide guidance on APRA's view of sound practice in particular areas. PPGs frequently discuss legal requirements from legislation, regulations or APRA's prudential standards, but do not themselves create enforceable requirements.
 This PPG aims to assist regulated entities in managing data risk. It is designed to provide guidance to senior management, risk management and technical specialists (both management and operational). The PPG targets areas where APRA continues to identify weaknesses as part of its ongoing supervisory activities. The PPG does not seek to provide an all-encompassing framework, or to replace or endorse existing industry standards and guidelines.
-Subject to meeting APRA's prudential requirements, a regulated entity has the flexibility to manage data risk in a manner that is best suited to achieving its business objectives. Not all of the practices outlined in this PPG will be relevant for every regulated entity and some aspects may vary depending upon the size, complexity and risk profile of the entity.",,,,,0.0.1,https://www.apra.gov.au/sites/default/files/CPG-235-Managing-Data-Risk.pdf
+Subject to meeting APRA's prudential requirements, a regulated entity has the flexibility to manage data risk in a manner that is best suited to achieving its business objectives. Not all of the practices outlined in this PPG will be relevant for every regulated entity and some aspects may vary depending upon the size, complexity and risk profile of the entity.",,,,,0.0.2,https://www.apra.gov.au/sites/default/files/CPG-235-Managing-Data-Risk.pdf
 cpg235:0001,skos:Concept,Data and data risk,,,,cpg235:scheme,,cpg235:scheme,,
 cpg235:0002,skos:Concept,Data quality,,,,cpg235:scheme,cpg235:0001,,,
 cpg235:0003,skos:Concept,Data quality dimensions,,"In APRA's view, a useful technique for managing data risk is through the assessment and management of data quality. Data quality can be assessed using a range of dimensions. The relevance of each of these dimensions will vary depending upon the nature of the data.",CPG 235 - Managing Data Risk s 16,cpg235:scheme,cpg235:0002,,,
@@ -27,10 +27,10 @@ cpg235:0102,skos:Concept,Formally approved data risk management framework,,"In o
 cpg235:0103,skos:Concept,"Hierarchy of policies, standards, guidelines, procedures",,,CPG 235 - Managing Data Risk s 20(a),cpg235:scheme,cpg235:0102,,,
 cpg235:0104,skos:Concept,Alignment with other enterprise frameworks,,,CPG 235 - Managing Data Risk s 20(b),cpg235:scheme,cpg235:0102,,,
 cpg235:0105,skos:Concept,Expectations of the Board and senior management,,,CPG 235 - Managing Data Risk s 20(c),cpg235:scheme,cpg235:0102,,,
-cpg235:0106,skos:Concept,Designated owner or owners,,,CPG 235 - Managing Data Risk s 20(d),cpg235:scheme,cpg235:0102,,,
-cpg235:0107,skos:Concept,Roles and responsibilities,,,CPG 235 - Managing Data Risk s 20(e),cpg235:scheme,cpg235:0102,,,
+cpg235:0106,skos:Concept,Assignment of designated owner or owners,,,CPG 235 - Managing Data Risk s 20(d),cpg235:scheme,cpg235:0102,,,
+cpg235:0107,skos:Concept,Outlines of roles and responsibilities,,,CPG 235 - Managing Data Risk s 20(e),cpg235:scheme,cpg235:0102,,,
 cpg235:0108,skos:Concept,Enablement of design and implementation of data controls,,,CPG 235 - Managing Data Risk s 20(f),cpg235:scheme,cpg235:0102,,,
-cpg235:0109,skos:Concept,Reviews on regular basis,,,CPG 235 - Managing Data Risk s 20(g),cpg235:scheme,cpg235:0102,,,
+cpg235:0109,skos:Concept,Reviews on a regular basis,,,CPG 235 - Managing Data Risk s 20(g),cpg235:scheme,cpg235:0102,,,
 cpg235:0110,skos:Concept,Establishment and ongoing development of the data risk management framework,,,CPG 235 - Managing Data Risk s 21,cpg235:scheme,cpg235:0101,,,
 cpg235:0111,skos:Concept,Data risk management strategy and supporting program of work,,"Clearly defined budget, resource requirements, timeframes and milestones.",CPG 235 - Managing Data Risk s 21(a),cpg235:scheme,cpg235:0110,,,
 cpg235:0112,skos:Concept,Integral part of change management and business-as-usual processes,,,CPG 235 - Managing Data Risk s 21(b),cpg235:scheme,cpg235:0110,,,
@@ -216,7 +216,7 @@ cpg235:0600,skos:Concept,Monitoring and management of data issues,,,,cpg235:sche
 cpg235:0610,skos:Concept,Monitoring processes,,,,cpg235:scheme,cpg235:0600,,,
 cpg235:0611,skos:Concept,Monitoring processes to identify potential data issues,,The strength of monitoring controls would typically be commensurate with the criticality and sensitivity of the data. APRA envisages that alerts would be investigated in a timely manner with an appropriate response to address anomalies.,CPG 235 - Managing Data Risk s 58,cpg235:scheme,cpg235:0610,,,
 cpg235:0612,skos:Concept,Clear allocation of responsibility for regular monitoring of data,,,CPG 235 - Managing Data Risk s 59,cpg235:scheme,cpg235:0610,,,
-cpg235:0613,skos:Concept,Appropriate processes and tools in place to manage the volume of monitoring required,,,CPG 235 - Managing Data Risk s 59,cpg235:scheme,cpg235:0610,,,
+cpg235:0613,skos:Concept,Appropriate processes and tools are in place to manage the volume of monitoring required,,,CPG 235 - Managing Data Risk s 59,cpg235:scheme,cpg235:0610,,,
 cpg235:0620,skos:Concept,Data issue management,,,,cpg235:scheme,cpg235:0600,,,
 cpg235:0621,skos:Concept,Appropriate processes to manage all stages of a data issue,,,CPG 235 - Managing Data Risk s 60,cpg235:scheme,cpg235:0620,,,
 cpg235:0622,skos:Concept,Stages of data issue,,,CPG 235 - Managing Data Risk s 60,cpg235:scheme,cpg235:0621,,,
