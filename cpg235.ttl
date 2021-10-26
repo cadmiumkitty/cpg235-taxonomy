@@ -1,4 +1,4 @@
-@prefix cpg235: <https://dalstonsemantics.com/reg/au/apra/cpg235/> .
+@prefix cpg235: <https://dalstonsemantics.com/ns/au/gov/apra/cpg235/> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix pav: <http://purl.org/pav/> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
